@@ -58,7 +58,7 @@ if (location.protocol.indexOf('s') >= 0) {
 function opened() {
   var inputVal = $('#suuid').val();
   var port = $('#port').val();
-  var server = $('#server').val();
+  var server = location.host.split(":")[0];
   ws = new WebSocket(potocol + "://"+server+port+"/ws/live?suuid="+inputVal);
   ws.binaryType = "arraybuffer";
   ws.onopen = function(event) {
