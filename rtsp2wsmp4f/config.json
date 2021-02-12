@@ -1,6 +1,6 @@
 {
   "name": "RTSPtoWSMP4f",
-  "version": "0.2",
+  "version": "0.3",
   "slug": "rtsp2wsmp4f",
   "description": "RTSP to WEBSocket MP4 proxy",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
