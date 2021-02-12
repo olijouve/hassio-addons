@@ -25,6 +25,7 @@ type ConfigST struct {
 //ServerST struct
 type ServerST struct {
 	HTTPPort string `json:"http_port"`
+	HTTPIp string `json:"http_ip"`
 }
 
 //StreamST struct
