@@ -12,6 +12,9 @@
   "ingress_port": 8083,
   "panel_icon": "mdi:camera-wireless",
   "options": {
+    "server":{
+      "http_ip":"192.168.1.1"
+    },
     "streams": [{
       "name": "Sonoff",
       "url": "rtsp://rtsp:12345678@192.168.1.123:554/av_stream/ch0"
@@ -21,6 +24,9 @@
     }]
   },
   "schema": {
+    "server": {
+      "http_ip": "str"
+    },
     "streams": [{
       "name": "str",
       "url": "url"
